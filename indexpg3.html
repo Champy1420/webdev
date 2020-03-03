@@ -8,17 +8,37 @@
     <body>
 <header><b class="term">Babysitter Club</b></header>
     <hr>
-<main>
-    <ul>
-      <li>Name</li>
-      <li>Address</li>
-      <li>Phone</li>
-      <li>Email</li>
-      <li>Children Ages</li>
-      <li>Consent to Background Check</li>
-      <li>Tell us about you</li>
-    </ul>
+<h3> Please complete the following:</h3>
 
+
+    <form action="scripts/action.php" method="post">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="address">Address: </label>
+        <input type="text" name="address" id="address" required>
+
+        <label for="phone"> Phone: </label>
+        <input type="text" name:"phone" id="phone"  required>
+
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" required>
+      </form>
+
+        <label for="age">Child/Children Ages: </label>
+        <input type="text" name="age"  id="age">
+
+        <label for="consent">Consent to background check: </label>
+        <input type="text" name="consent"  id="consent">
+      </form>
+
+        <label>Tell us about yourself: <br>
+        <textarea name="Comment" rows "6" cols="35"></textarea>
+      </label>
+
+      <form action="scripts/action.php" method="get">
+        <button type="button" name="submit">SUBMIT</button>
+      </form>
   <figure>
       <img src="media/SmilingJocelyn.jpg" width="250" height="200"
       alt="Pic of Jocelyn"
@@ -34,10 +54,9 @@
         <video autoplay>="autoplay"/>
         <video src="media/stinky.mp4" type="video/mp4"></video>
           Your browser does not support the video tag.
-
       </figure>
 
-</main>
+
 <footer>
       <p>Contact us:
         859-222-3423
