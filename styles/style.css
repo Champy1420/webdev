@@ -82,7 +82,7 @@ p::first-letter {
   font-size: 1.8rem
 }
 
-p:: selection {
+p::selection {
   background-color: #D8D8D8;
   color: white;
 }
