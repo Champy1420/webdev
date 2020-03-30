@@ -19,10 +19,19 @@ nav > ul > li {
 }
 
 ol > li {
-  list-style-type: square;
-  font-size: 20px;
-  padding-bottom: 250px;
+  list-style-type: none;
+  font-size: 30px;
+  padding-bottom: 50px;
+  padding-left: 900px;
+  font-family: fantasy;
 }
+
+a[href] {
+  background-position: center;
+  background-color: #F2F5A9;
+  color: darkslateblue
+}
+
 
 p {
     color: green;
@@ -49,9 +58,13 @@ input[type="text"] {
   background-color: darkgray;
 }
 
-  label > login.html {
+textarea {
+background-color: darkgrey;
+}
+
+label > login.html {
     margin: 0 0 2em 0;
-  }
+}
 
 
 footer > p {
@@ -62,4 +75,23 @@ footer > p {
   font-size: 18px;
   border-top: 10px dotted #6495ED;
   padding: 2px;
+}
+
+p::first-letter {
+  font-style: italic;
+  font-size: 1.8rem
+}
+
+p:: selection {
+  background-color: #D8D8D8;
+  color: white;
+}
+
+a:hover {
+  color: purple;
+}
+
+tr:hover {
+  background-color: #B404AE;
+  color: white;
 }
