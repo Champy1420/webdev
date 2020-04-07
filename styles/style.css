@@ -9,26 +9,33 @@ header {
   border-bottom: 20px dotted #6495ED;
 }
 
+h3 {
+  font-size: 300%;
+  padding-left: 150px;
+  font-style: italic;
+  color: #6495ED;
+  font-weight: bold;
+}
+
 nav > ul > li {
   display: inline-flex;
-  font-size: 1.6em;
   font-family: cursive;
-  padding: 20px;
-  padding-left: 140px;
+  padding: 10px;
+  padding-left: 90px;
   color: darkslateblue;
+  font-size: 30px;
 }
 
 ol > li {
   list-style-type: none;
-  font-size: 30px;
-  padding-bottom: 50px;
-  padding-left: 900px;
+  font-size: 40px;
+  padding-bottom: 10px;
+  padding-left: 800px;
   font-family: fantasy;
 }
 
 a[href] {
   background-position: center;
-  background-color: #F2F5A9;
   color: darkslateblue
 }
 
@@ -42,30 +49,26 @@ p {
 
 }
 
-.boxtest{
-  border: 3px solid blue;
-  word-spacing: 5px;
-  letter-spacing: .2px;
-  text-align: left;
-}
-
-
 input[type="text"] {
   border: 1.5px solid #000;
   margin: 0 0 2em 0;
   padding: 15px;
-  width: 40%;
+  width: 23%;
   background-color: darkgray;
 }
 
+
 textarea {
 background-color: darkgrey;
+width: 70%;
+border: 1.5px solid #000;
+margin: 0 0 2em 0;
+padding: 15px;
 }
 
 label > login.html {
     margin: 0 0 2em 0;
 }
-
 
 footer > p {
   color: black;
@@ -77,18 +80,9 @@ footer > p {
   padding: 2px;
 }
 
-p::first-letter {
-  font-style: italic;
-  font-size: 1.8rem
-}
-
-p::selection {
-  background-color: #D8D8D8;
-  color: white;
-}
 
 a:hover {
-  color: purple;
+  color: hotpink;
 }
 
 tr:hover {
