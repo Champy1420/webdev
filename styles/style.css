@@ -11,10 +11,11 @@ header {
 
 h3 {
   font-size: 300%;
-  padding-left: 150px;
+  padding-left: 30px;
   font-style: italic;
   color: #6495ED;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 nav > ul > li {
@@ -46,24 +47,46 @@ p {
     font-size: 2em;
     font-variant: inherit;
     font-size: 24px;
-
 }
+
 
 input[type="text"] {
   border: 1.5px solid #000;
   margin: 0 0 2em 0;
   padding: 15px;
-  width: 23%;
+  width: 50%;
   background-color: darkgray;
 }
 
+label{
+    display: table;
+    grid-template-rows: 50px;
+    grid-template-columns: 150px;
+    height: 10px;
+    width: 650px;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: sans-serif;
+}
 
 textarea {
 background-color: darkgrey;
-width: 70%;
+width: 103%;
 border: 1.5px solid #000;
 margin: 0 0 2em 0;
 padding: 15px;
+}
+
+nav ol li {
+  font-size: 30px;
+  font-family: italic;
+  padding-left: 0px;
+  border: 1.6px solid #000;
+  width: 150px;
+  padding-left: 10px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 label > login.html {
@@ -74,10 +97,10 @@ footer > p {
   color: black;
   text-align: center;
   letter-spacing: 4px;
-  font-family: Arial;
+  font-family: monospace;
   font-size: 18px;
   border-top: 10px dotted #6495ED;
-  padding: 2px;
+  padding: 12px;
 }
 
 
