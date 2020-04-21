@@ -12,28 +12,21 @@
 <script type="text/ld+json">
 {
   "@context": "https://schema.org/",
-  "@thing": "Babysitting",
-  "person":
-      [
-      "children",
-      "parent"
-      ],
-  "organization":"volunteer",
-  "@place":
-      "LocalBusiness",
-      [
-        "childcare",
-        "club",
-        "service"
-      ]
-    "@intangible": "service",
-    "@propert": "serviceType":
-      [
-        "babysitting",
-        "service"
-      ]
-    "property": "email",
-}
+  "@type": "Babysitting",
+  "@type": "Property",
+    "person": "children",
+    "serviceType": "babysitting",
+    "email": "mailto:babysittersclub@gmail.com",
+    "telephone": "859-222-3423",
+  },
+   "@type": "Organization",
+      "LocalBusiness": "volunteer",
+      "Intangible": "Service"
+  },
+    "@type": "Place",
+      "LocalBusiness": "service",
+  }
+
 </script>
 
 <nav>
