@@ -9,45 +9,40 @@ header {
   color: darkslateblue;
   font-size: 65px;
   text-align: center;
+  margin-bottom: 15px;
 }
-
+/*navigation line */
 nav > ul > li {
-  display: inline;
   font-family: sans-serif;
   font: georgia;
-  text-align: justify;
   text-decoration: none;
   padding: 15px;
   font-size: 18px;
-  margin-left: 120px;
-  margin-bottom: 30px;
+  list-style: none;
+  text-align: center;
+
 }
 
+nav > ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0;
+  margin-bottom: 20px;
+  color: black;
+}
 
+/*"please complete the following"*/
 body > h3 {
-  font-size: 24px;;
-  padding-left: 30px;
+  font-size: 22px;;
+  padding-left: 45px;
   font-style: normal;
   color: darkslateblue;
-  font-family: georgia;
-
-
-}
-
-ol > li {
-  list-style-type: none;
-  font-size: 30px;
-  margin-left: 800px;
-  font-family: georgia;
-  font-style: italic;
-}
-
-a[href] {
-  background-position: center;
-  color: darkslateblue
+  font-family: sans-serif;
+  font: georgia;
 }
 
 
+/*paragraphs on main, aboutus page */
 p {
     color: black;
     font-family: Arial;
@@ -61,9 +56,23 @@ p {
    padding-left: 80px;
    padding-bottom: 0px;
    padding-right: 80px;
-
 }
 
+
+em {
+  padding-left: 250px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+i {
+  font-weight: bold;
+  text-decoration: underline;
+  padding-top: 20px;
+}
+
+
+/*application page*/
 input[type="text"] {
   border: 1px solid #000;
   border-radius: 6px;
@@ -72,6 +81,8 @@ input[type="text"] {
   background-color: darkgray;
   width: 300px;
 }
+
+/*form fields*/
  #address {
   width: 280px;
 }
@@ -96,9 +107,10 @@ label{
     font-size: 18px;
     font-family: georgia;
     margin-left: 20px;
-
 }
 
+
+/*open text box on app page*/
 textarea {
 background-color: darkgrey;
 width: 50%;
@@ -109,18 +121,24 @@ margin-left: 25px;
 padding: 15px;
 }
 
-
+/*submit & newsletter links*/
 nav ol li {
-  font-size: 25px;
-  font-family: georgia;
-  border: 1.3px dotted #000;
-  border-radius: 6px;
-  width: 110px;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: center;
+  display: inline-grid;
+  margin-left: 50px;
+ color: black;
 
 }
+
+ ol li {
+  font-size: 22px;
+  font-family: sans-serif;
+  font: georgia;
+  color: black;
+
+  width: 275px;
+  text-align: center;
+}
+
 
 div.gallery {
   display: float;
@@ -135,10 +153,6 @@ div.gallery {
 
 }
 
-label > login.html {
-    margin: 0 0 2em 0;
-}
-
 figure #owner_profile {
   position: relative;
   left: 60px;
@@ -150,18 +164,6 @@ figure #owner_profile {
   margin-right: 5px;
 }
 
-em {
-  padding-left: 250px;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-i {
-  font-weight: bold;
-  text-decoration: underline;
-  padding-top: 20px;
-}
-
 figure #Zionsleeping_2 {
   position: relative;
   left: 60px;
@@ -171,7 +173,6 @@ figure #Zionsleeping_2 {
   padding: 10px;
   float: left;
   margin-right: 5px;
-
 }
 
 footer > p {
