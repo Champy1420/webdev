@@ -1,35 +1,36 @@
 body {
   background-color: #DCDCDC;
+  font-family: sans-serif;
+  font-size: 12px;
+  font: georgia;
+  line-height: 1.6;
   padding: 0;
   margin: 0;
 }
 
 header {
-  font-family: sans-serif;
   color: darkslateblue;
-  font-size: 65px;
+  font-size: 6rem;
   text-align: center;
   margin-bottom: 15px;
+
 }
+
 /*navigation line */
-nav > ul > li {
-  font-family: sans-serif;
-  font: georgia;
-  text-decoration: none;
-  padding: 15px;
-  font-size: 18px;
-  list-style: none;
-  text-align: center;
-
-}
-
-nav > ul {
+nav ul {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  padding: 0;
-  margin-bottom: 20px;
-  color: black;
+  list-style-type: none;
+  padding-bottom: 30px;
 }
+
+nav a {
+  font-size: 1.3rem;
+  color: black;
+  text-decoration: underline;
+  font-variant: small-caps;
+}
+
 
 /*"please complete the following"*/
 body > h3 {
@@ -45,30 +46,37 @@ body > h3 {
 /*paragraphs on main, aboutus page */
 p {
     color: black;
-    font-family: Arial;
+    font-family: sans-serif;
     font-size: 16px;
-
+    margin-right: 20px;
 }
 
- main > p  {
+ main > p > #second {
    display: grid;
    text-align: left;
-   padding-left: 80px;
+   padding-left: 180px;
    padding-bottom: 0px;
-   padding-right: 80px;
+   padding-right: 60px;
+}
+
+#second {
+  margin-left: 20px;
 }
 
 
 em {
-  padding-left: 250px;
+  padding-left: 100px;
   font-weight: bold;
   font-size: 1rem;
+  font-family: sans-serif;
+
 }
 
 i {
   font-weight: bold;
   text-decoration: underline;
   padding-top: 20px;
+
 }
 
 
@@ -78,6 +86,7 @@ input[type="text"] {
   border-radius: 6px;
   margin: 0 0 2em 0;
   padding: 15px;
+  padding-left: 30px;
   background-color: darkgray;
   width: 300px;
 }
@@ -88,15 +97,15 @@ input[type="text"] {
 }
 
 #phone {
-  width: 290px;
+  width: 293px;
 }
 
 #email {
-  width: 290px;
+  width: 295px;
 }
 
 #age {
-  width: 170px;
+  width: 175px;
 }
 
 #password {
@@ -121,72 +130,166 @@ margin-left: 25px;
 padding: 15px;
 }
 
-/*submit & newsletter links*/
-nav ol li {
-  display: inline-grid;
-  margin-left: 50px;
- color: black;
-
+/*newsletter & submit links*/
+nav li {
+  list-style-type: none;
 }
 
- ol li {
-  font-size: 22px;
+nav ol {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+ #newsletter {
+ display: flex;
+ margin-left: 850px;
+ margin-bottom: 10px;
+ color: black;
+ list-style-type: none;
+ width: 200px;
+ padding-right: 18px;
+}
+
+ #newsletter {
+  font-size: 20px;
   font-family: sans-serif;
   font: georgia;
   color: black;
+  text-align: center;
 
-  width: 275px;
+}
+
+ #submit {
+    width: 150px;
+    list-style-type: none;
+    margin-left: 120px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+ #table {
+  font-size: 1.6rem;
+  text-align: center;
+  text-decoration-line: underline;
+  font-style: italic;
+}
+
+#note {
+  font-size: .8rem;
+}
+
+table {
+  font-size: 1.2rem;
+  margin-left: 130px;
+  margin-bottom: 80px;
+
+}
+
+#memberid {
+  font-family: sans-serif, georgia;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#memberid td, #membersid th{
+  border: 1.5px dotted black;
+  padding 10px;
   text-align: center;
 }
 
+#memberid th {
+  text-align: center;
+  color: darkslateblue;
+}
 
 div.gallery {
   display: float;
   float: left;
-  margin-left: 100px;
-  margin-bottom: 20px;
-  padding: 5px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+  margin-right: 50px;
+  padding: 8px;
   border: 1.5px dotted black;
   border-radius: 6px;
   width: 150px;
   height: 200px;
+  background-color: darkslateblue;
 
+}
+
+#thankyou {
+  display: grid;
+  text-align: left;
+  font-size: 1.3rem;
+  padding-left: 80px;
+  padding-bottom: 0px;
+  padding-right: 80px;
+
+}
+h2 {
+  margin-left: 200px;
+}
+
+#video {
+  margin: 0 200px 100px 400px;
+  width: 100%;
+  height: auto;
+}
+
+h4 {
+  margin-left: 150px;
 }
 
 figure #owner_profile {
   position: relative;
-  left: 60px;
-  top: 90px;
+  left: 20px;
+  top: 30px;
   bottom: 180px;
   border: 3px solid black;
   padding: 10px;
   float: left;
-  margin-right: 5px;
+  margin-right: 35px;
+  margin-bottom: 20px;
+}
+
+#founder {
+  margin-left: 20px;
+  padding-left: 20px;
+  margin-right: 20px;
 }
 
 figure #Zionsleeping_2 {
   position: relative;
-  left: 60px;
-  top: 25px;
+  left: 10px;
+  top: 10px;
   bottom: 180px;
   border: 3px solid black;
-  padding: 10px;
+  padding: 8px;
   float: left;
-  margin-right: 5px;
+  margin-right: 25px;
+}
+
+footer {
+  border-top: 10px;
+  padding: 10px;
+  background-color: slateblue;
+  margin-top: 10px;
 }
 
 footer > p {
   color: black;
+  font-weight: 100;
+  font-variant: small-caps;
   text-align: center;
-  letter-spacing: 5px;
+  letter-spacing: 3.2px;
   font-family: sans-serif;
-  font-size: 20px;
-  border-top: 10px dotted #6495ED;
-  padding: 12px;
+  font-size: 1.1rem;
+
 }
 
 
-a:hover {
+ nav a:hover {
   color: hotpink;
 }
 
