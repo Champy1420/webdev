@@ -1,8 +1,7 @@
 body {
   background-color: #DCDCDC;
-  font-family: sans-serif;
+  font-family: georgia, serif;
   font-size: 12px;
-  font: georgia;
   line-height: 1.6;
   padding: 0;
   margin: 0;
@@ -13,6 +12,7 @@ header {
   font-size: 6rem;
   text-align: center;
   margin-bottom: 15px;
+  font-family: georgia, serif;
 
 }
 
@@ -26,6 +26,7 @@ nav ul {
 
 nav a {
   font-size: 1.3rem;
+  font-family: georgia, serif;
   color: black;
   text-decoration: underline;
   font-variant: small-caps;
@@ -38,15 +39,14 @@ body > h3 {
   padding-left: 45px;
   font-style: normal;
   color: darkslateblue;
-  font-family: sans-serif;
-  font: georgia;
+  font-family: georgia, sans-serif;
 }
 
 
 /*paragraphs on main, aboutus page */
 p {
     color: black;
-    font-family: sans-serif;
+    font-family: serif;
     font-size: 16px;
     margin-right: 20px;
 }
@@ -55,20 +55,21 @@ p {
    display: grid;
    text-align: left;
    padding-left: 180px;
-   padding-bottom: 0px;
-   padding-right: 60px;
+   padding-bottom: 10px;
+   padding-right: 50px;
 }
 
 #second {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 
 em {
-  padding-left: 100px;
+  padding: 50px;
   font-weight: bold;
-  font-size: 1rem;
-  font-family: sans-serif;
+  font-size: 1.2rem;
+  font-family: serif;
+  margin-left: 500px;
 
 }
 
@@ -136,7 +137,7 @@ nav li {
 }
 
 nav ol {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 80px;
 }
 
@@ -152,11 +153,9 @@ nav ol {
 
  #newsletter {
   font-size: 20px;
-  font-family: sans-serif;
-  font: georgia;
+  font-family: georgia, serif;
   color: black;
   text-align: center;
-
 }
 
  #submit {
@@ -164,7 +163,7 @@ nav ol {
     list-style-type: none;
     margin-left: 120px;
     padding: 5px;
-    font-family: sans-serif;
+    font-family: serif;
     font-size: 20px;
 }
  #table {
@@ -186,14 +185,14 @@ table {
 }
 
 #memberid {
-  font-family: sans-serif, georgia;
+  font-family: serif, georgia;
   border-collapse: collapse;
   width: 80%;
 }
 
 #memberid td, #membersid th{
   border: 1.5px dotted black;
-  padding 10px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -202,21 +201,21 @@ table {
   color: darkslateblue;
 }
 
-div.gallery {
-  display: float;
+div.gallery > img {
+  display: flex;
   float: left;
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 30px;
   margin-bottom: 60px;
-  margin-right: 50px;
-  padding: 8px;
-  border: 1.5px dotted black;
-  border-radius: 6px;
-  width: 150px;
-  height: 200px;
+  margin-right: 30px;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
   background-color: darkslateblue;
-
 }
+
 
 #thankyou {
   display: grid;
@@ -254,9 +253,10 @@ figure #owner_profile {
 }
 
 #founder {
-  margin-left: 20px;
+  padding-top: 10px;
+  margin-left: 30px;
   padding-left: 20px;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 figure #Zionsleeping_2 {
@@ -283,11 +283,10 @@ footer > p {
   font-variant: small-caps;
   text-align: center;
   letter-spacing: 3.2px;
-  font-family: sans-serif;
+  font-family: georgia, serif;
   font-size: 1.1rem;
 
 }
-
 
  nav a:hover {
   color: hotpink;
